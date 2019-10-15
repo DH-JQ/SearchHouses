@@ -98,7 +98,8 @@ REDIS_URL = "redis://127.0.0.1:6379"
 #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
 #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderQueue"
 #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderStack"
-LOG_LEVEL = 'DEBUG'
+LOG_LEVEL = 'INFO'
+LOG_FILE = './log.log'
 
 MONGO_URI = "mongodb://127.0.0.1"
 MONGO_DB = "anjuke"

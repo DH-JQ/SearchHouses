@@ -26,7 +26,6 @@ class AnjukeSpider(scrapy.Spider):
                     'today': date.today().strftime('%Y%m%d')
                     }
                 )
-        
         next_url = response.xpath(
             '//a[@class="next-page next-link"]/@href').extract_first()
         if next_url is not None:
